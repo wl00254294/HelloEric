@@ -48,7 +48,7 @@
 			<artifactId>docker-maven-plugin</artifactId>
 			<version>1.0.0</version>
 			<configuration>
-				<imageName>${docker.image.prefix}/springboot</imageName>
+				<imageName>${env.ver}/springboot</imageName>
 				<dockerDirectory>src/main/docker</dockerDirectory>
 				<resources>
 					<resource>
